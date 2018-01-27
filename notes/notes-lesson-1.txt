@@ -17,7 +17,7 @@ GIT COMMADS
   git checkout -b <branch-name>
 
   //Queue current changes for commit
-  git add *
+  git add .
 
   //Commit current changes on branch
   git commit -m 'add in a comment for changes made'
@@ -30,5 +30,5 @@ GIT COMMADS
 
   //Merge one branch into another
   git merge --no-ff <branch-name>
-  {upon merging, if there are no merge conflicts, type ':x' to accept merge}
+  {upon merging, if there are no merge conflicts, type ':x' to accept merge - then you would git push}
   {you can also use git merge --abort to cancel a merge}
