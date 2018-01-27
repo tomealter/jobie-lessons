@@ -1,0 +1,34 @@
+SOFTWARE
+  Codepen
+  VS Code
+  Git
+
+GIT COMMADS
+  //Clone Git Repo
+  git clone <path copied from git repo> folder-name
+
+  //Check for current file changes
+  git status
+
+  //Checkout a certain branch
+  git checkout <branch-name>
+
+  //Create new branch off current branch
+  git checkout -b <branch-name>
+
+  //Queue current changes for commit
+  git add *
+
+  //Commit current changes on branch
+  git commit -m 'add in a comment for changes made'
+
+  //Push Changes to origin of branch
+  git push origin <current-branch-name>
+
+  //Pull changes from origin of branch to local machine
+  git pull
+
+  //Merge one branch into another
+  git merge --no-ff <branch-name>
+  {upon merging, if there are no merge conflicts, type ':x' to accept merge}
+  {you can also use git merge --abort to cancel a merge}
